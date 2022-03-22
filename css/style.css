@@ -693,6 +693,7 @@ strong {
     color: #616161;
     margin-bottom: 15px;
     padding: 0 10px;
+    padding-left: 10px !important;
 }
 .leftmany-button {
     display: inline-block;
