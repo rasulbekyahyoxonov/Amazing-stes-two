@@ -409,6 +409,130 @@ strong {
     height: 100%;
     object-fit: cover;
 }
+.check2-block2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .4s;
+    opacity: 0;
+    z-index: -10;
+}
+.check2-block3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .4s;
+    opacity: 0;
+    z-index: -10;
+}
+.check2-block4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .4s;
+    opacity: 0;
+    z-index: -10;
+}
+.check2-block5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .4s;
+    opacity: 0;
+    z-index: -10;
+}
+#check2:checked ~ .check2-block2 {
+    transform: scale(1);
+    opacity: 1;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+#check3:checked ~ .check2-block3 {
+    transform: scale(1);
+    opacity: 1;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+#check4:checked ~ .check2-block4 {
+    transform: scale(1);
+    opacity: 1;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+#check5:checked ~ .check2-block5 {
+    transform: scale(1);
+    opacity: 1;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.LALA{
+    display: block;
+    font-size: 32px;
+    z-index: 10;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    cursor: pointer;
+}
+.LALA:hover{
+    color: #DC1637;
+}
+.check2-block-h2 {
+    color: #fff;
+    z-index: 10;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+#check2, #check3, #check4, #check5 {
+    display: none;
+}
 .background-icon {
     position: absolute;
     top: 0;
@@ -428,8 +552,9 @@ strong {
     color: #0f0f0f;
     transform: translateX(-400px);
     transition: .3s;
+    cursor: pointer;
 }
-.background-icon .cow-icon:active {
+.background-icon .cow-icon:hover {
     background-color: #f85959;
     color: #fff;
 }

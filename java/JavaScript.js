@@ -1,5 +1,5 @@
 
-//  Scroolbar ********
+//  Scroolbar
 
 let progress = document.getElementById('progressbar');
 let totalHeight = document.body.scrollHeight - 
