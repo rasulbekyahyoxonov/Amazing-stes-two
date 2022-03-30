@@ -41,6 +41,45 @@ a {
 strong {
     font-weight: 900;
 }
+#topUp {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #DC1637;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 3;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.384);
+}
+#topUp a {
+    color: #fff;
+}
+#topUp .up {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    transform: translate(35%, 30%);
+}
+#topUp .up2 {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    opacity: 0;
+}
+#topUp:hover .up {
+    transform: translate(33%, -50%);
+    transition: .3s;
+}
+#topUp:hover .up2 {
+    top: 30%;
+    opacity: 1;
+    transition: .4s;
+}
 /* Element -----------------------------------******************----------------------------------------------------------*/
 
 /* Wiewport ---------------------------------------------------------------------------------------------*/
