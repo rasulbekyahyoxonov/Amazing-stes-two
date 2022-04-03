@@ -47,6 +47,9 @@
     .packpages-col {
         margin: 20px 0;
     }
+    .content {
+        max-width: 960px;
+    }
 }
 @media only screen and (max-width:1080px) {
     .conteiner {
@@ -76,7 +79,7 @@
         width: 100%;
         height: 0;
         background-color: #000;
-        z-index: 3;
+        z-index: 40;
         overflow: hidden;
     }
     #check:checked ~ .home-ul {
@@ -110,7 +113,7 @@
         width: 100%;
         height: 60px;
         background-color: #000;
-        z-index: 1;
+        z-index: 30;
     }
     .leftname-p {
         margin: 15px;
@@ -185,6 +188,112 @@
     }
     .footer-ul {
         padding-left: 10px;
+    }
+    .center-wiewport2 {
+        height: 100%;
+    }
+    .link_h1 {
+        font-size: 42px;
+        color: rgba(255, 255, 255, 0.829);
+    }
+    .content {
+        max-width: 720px;
+        height: 850px;
+    }
+    #customer {
+        height: 900px;
+    }
+    .nana {
+        width: 100%;
+        display: block;
+    }
+    .list-group {
+        padding-left: 20px;
+        padding-right: 20px ;
+    }
+    .right_customer {
+        padding: 10px;
+    }
+    .select_button {
+        padding: 15px;
+        padding-bottom: 40px;
+    }
+    #question {
+        height: 900px;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .accordion-item {
+        padding: 0;
+        border: none !important;
+    }
+    .all_leftcoll, .rightcoll {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #flex_coll {
+        height: 2500px;
+    }
+    .articles-flex2 {
+        display: flex;
+        flex-wrap: wrap !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .articles-flex3 {
+        display: flex;
+        flex-wrap: wrap !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #contacts {
+        height: 1300px;
+    }
+    .bottom_contact {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .all-md {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .col-md {
+        max-width: 100%;
+    }
+    .flex_contact {
+        flex-direction: column;
+    }
+    .topinfo, .col-md {
+        padding: 0 15px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:770px) {
+    .content {
+        max-width: 540px;
+    }
+    .left_customer {
+        width: 100%;
+        height: auto;
+    }
+    .button_fto {
+        width: 100%;
+        display: block;
+    }
+    .packpages-flex2 {
+        display: block;
+        padding: 0;
+    }
+    .packpages-col2 {
+        width: 100%;
+    }
+    #flex_coll {
+        height: 4200px;
     }
 }
 @media only screen and (max-width:680px) {
@@ -274,5 +383,8 @@
     }
     #carouselExampleIndicators:hover .fa-chevron-right {
         transform: translateX(20px) !important;
+    }
+    .LALA {
+        padding: 0;
     }
 }

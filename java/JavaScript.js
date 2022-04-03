@@ -25,7 +25,7 @@ counters.forEach((counter) => {
 
         if (c < target) {
             counter.innerText = `${Math.ceil(c + increment)}`
-            setTimeout(updateCounter, 20);
+            setTimeout(updateCounter, 50);
         }
         else {
             counter.innerText = target;
@@ -56,3 +56,8 @@ ScrollReveal().reveal('.right-corusel',{delay: 400, origin: 'bottom'});
 ScrollReveal().reveal('.articles-flex',{delay: 200, origin: 'bottom'});
 ScrollReveal().reveal('.newsletter-div',{delay: 200, origin: 'bottom'});
 ScrollReveal().reveal('.flex-footer',{delay: 200, origin: 'bottom'});
+ScrollReveal().reveal('.about_title',{delay: 200, origin: 'bottom'});
+ScrollReveal().reveal('.right_customer',{delay: 200, origin: 'bottom'});
+ScrollReveal().reveal('.left_customer',{delay: 100, origin: 'bottom'});
+ScrollReveal().reveal('.accordion1',{delay: 200, origin: 'bottom'});
+ScrollReveal().reveal('.accordion2',{delay: 100, origin: 'bottom'});
