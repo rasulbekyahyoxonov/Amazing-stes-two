@@ -10,6 +10,13 @@ window.onscroll = function() {
     progress.style.height = progressHeight + "%";
 }
 
+// sticky nawbar
+
+window.addEventListener ("scroll", function(){
+    let topnawbar = document.querySelector(".topnawbar");
+    topnawbar.classList.toggle("sticky", window.scrollY > 150);
+})
+
 // Counter number 
 
 const counters = document.querySelectorAll('.counter');
@@ -41,6 +48,7 @@ ScrollReveal ({
     distance: '80px',
     duration: 1000
 });
+
 
 ScrollReveal().reveal('.explore',{delay: 200, origin: 'bottom'});
 ScrollReveal().reveal('.carddiv1',{delay: 200, origin: 'bottom'});

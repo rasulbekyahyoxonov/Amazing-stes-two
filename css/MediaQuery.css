@@ -71,6 +71,12 @@
     #wiewport {
         background-position: -80px 40px;
     }
+    .topnawbar.sticky .home-ul {
+        background-color: #fff;
+        position: absolute;
+        top: 70px;
+        transition: .3s;
+    }
     .home-ul {
         position: absolute;
         top: 60px;
@@ -81,6 +87,7 @@
         background-color: #000;
         z-index: 40;
         overflow: hidden;
+        transition: .3s;
     }
     #check:checked ~ .home-ul {
         top: 60px;
@@ -120,11 +127,8 @@
     }
     .naw-label {
         display: block;
-        padding: 18px;
+        padding: 10px;
         cursor: pointer;
-    }
-    .explore {
-        margin-top: 130px;
     }
     .explore .explore-h1 {
         font-size: 42px;
@@ -272,6 +276,9 @@
         padding: 0 15px;
         width: 100%;
     }
+    #blogs {
+        height: 2800px;
+    }
 }
 @media only screen and (max-width:770px) {
     .content {
@@ -350,6 +357,9 @@
     }
     .subcribes-div {
         width: 90%;
+    }
+    #blogs {
+        height: 5300px;
     }
 }
 @media only screen and (max-width:580px) {
